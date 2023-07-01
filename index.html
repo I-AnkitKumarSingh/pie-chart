@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Poll with Pie Chart</title>
+    <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-pie.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2>Poll: What is your favorite color?</h2>
+    <form id="poll-form" style="font-size: 18px;">
+      <label>
+        <input type="radio" name="color" value="Nike" /> Nike
+      </label>
+      <label>
+        <input type="radio" name="color" value="Puma" /> Puma
+      </label>
+      <label>
+        <input type="radio" name="color" value="Adidas" /> Adidas
+      </label>
+      <label>
+        <input type="radio" name="color" value="Others" /> Others
+      </label>
+      <br />
+      <button type="submit" style="width: 30%;background-color: black; color: whitesmoke;">Submit</button>
+    </form>
+
+    <div id="container" style="width: 100%; height: 80%;"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
